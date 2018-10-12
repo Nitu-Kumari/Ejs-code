@@ -1,0 +1,39 @@
+.footer {
+    position: fixed;
+    left: 0;
+     bottom: 0;
+     width: 100%;
+      background-color:white;
+      color: white;
+      text-align: center;
+        }
+
+
+        .container .header {
+            height: 55px;
+            border:2px solid red;
+        }
+        .column {
+          float: left;
+      width: 18%;
+      padding: 2px;
+        }
+    
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+      }
+      img {
+        border: none;
+        border-radius: 2px;
+        padding: 2px;
+        width: 35px;
+    }
+    
+    
+      
+    
+     
+
+        

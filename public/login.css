@@ -1,0 +1,37 @@
+.button {
+    background-color:blue;
+    border: none;
+    color: white;
+   position:center;  
+  padding: 10px 95px;
+text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 30%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+a:link {
+    color: blue;
+    position:center; 
+    margin:400px; 
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width:600px ;
+}
+
+

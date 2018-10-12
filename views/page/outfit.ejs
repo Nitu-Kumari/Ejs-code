@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title> Dress Recommender</title>
+    </head>
+
+    <link rel="stylesheet" href="/outfit.css" />
+
+
+    <body class="center">
+
+
+            <div class="row">
+
+                    <div class="column">
+                       
+                   <img src="/cloth.png" alt="img" >
+                   </div>
+                   <div class="column">
+                   <p>Create Your  Outfit</p>
+                   </div>
+                   <div class="column">
+                   <img src="/Recommendericon5.png" alt="img">
+                   </div>
+               </div>
+               <hr>
+
+
+        <h2>Select Your cloths or accessories to
+             create your outfit </h2>
+
+             <div class="column">
+                    <img src="/cloth.png" alt="img">
+                    </div>
+             <div class="row">
+                    <% outfits.forEach(function(outfit){ %>
+                        <img src="<%=outfit.url %>" alt="img">
+                      <% }); %>
+
+
+                    <div class="column">
+                       
+                   <img src="/cloth1.png" alt="img">
+                   </div>
+                   <div class="column">
+                   <img src="/cloth2.png"alt="img">
+                   </div>
+                   <div class="column">
+                   <img src="/cloth3.png" alt="img">
+                   </div>
+                   <div class="column">
+                        <img src="/cloth4.png" alt="img" >
+                        </div>
+                   </div>
+
+
+<hr>
+
+
+
+        <form method="get" action="home">
+            <input type="checkbox" name="summer" value="Summer"> Summer<br>
+            <input type="checkbox" name="Winter" value="Winter">Winter<br>
+            <input type="checkbox" name="Rainy" value="Rainy"> Rainy <vr>
+            <input type="checkbox" name="Office" value="Office"> Office
+            <input type="checkbox" name="Workout" value="Workout"> Workout
+          </form>
+<hr>
+
+        <input type="button" class="button" value="Create">
+
+                   <footer>
+                   <div class="row">
+                    <div class="column">
+                  <a href="/recommeded">
+                      <img src="/Recommendericon7.png" width="52" height="56"
+                       title="recommeded" alt="recommeded"></a>
+                       </div>
+
+                   <div class="column">
+                       <a href="/outfit">
+                          <img src="/Recommender icon1.png" width="52" height="56"
+                           title="outfit" alt="outfit"></a>
+                           </div>
+                        
+                               <div class="column">
+                            <a href="/home">
+                             <img src="/cloth5.png" width="52" height="56" title="home"
+                              alt="home"></a>
+                                </div>
+                              </div>
+                            </footer>
+
+        </body>
+        </head>
+        </html>
